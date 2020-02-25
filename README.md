@@ -1,4 +1,4 @@
-<img align="left" width="150" src="alien.gif">
+<img align="left" width="150" src="assets/alien.gif">
 
 # Cv
 
