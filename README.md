@@ -2,4 +2,4 @@
 
 # Cv
 
-I needed to scribble something for my curriculum so, [here you go](https://matteogiorgi.github.io)!
+I needed to scribble something for my curriculum so, [here you go](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/cv.pdf)!
