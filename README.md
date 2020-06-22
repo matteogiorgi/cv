@@ -1,4 +1,4 @@
-<img align="left" width="150" src="assets/super.gif">
+<img align="left" width="150" src="assets/cool.gif">
 
 # Cv
 
