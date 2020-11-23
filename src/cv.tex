@@ -1,23 +1,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Freeman Curriculum Vitae
-% XeLaTeX Template
-% Version 2.0 (19/3/2018)
+% XeLaTeX Template:
+%   https://www.latextemplates.com/template/freeman-cv
 %
-% This template originates from:
-% http://www.LaTeXTemplates.com
-%
-% Authors:
-% Vel (vel@LaTeXTemplates.com)
-% Alessandro Plasmati
+% Original authors:
+%   Vel (vel@LaTeXTemplates.com)
+%   Alessandro Plasmati
+
+% Modified by:
+%   Matteo Giorgi
 %
 % License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%!TEX program = xelatex
-% NOTICE: This template must be compiled with XeLaTeX, the line above should
-% ensure this happens automatically but if it doesn't you will need to specify 
-% XeLaTeX as the engine in your editor or script
-% 
+%   CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
@@ -85,45 +78,57 @@
 %{} % Job title
 %{This position involved transitioning from purely theoretical work to experimental applications utilising the immense resources of Black Mesa. The transition required an initial learning curve in hazard containment, health and safety procedures and operating experimental infrastructure. Manipulating valves, carts, buttons, levers, etc considerably increased my physical fitness.}  % Description
 
-\section{Formazione}
+\section{Bio \& Education}
 
-Studi di meccanica effettuati presso il \textit{Dipartimento di Ingegneria Meccanica} dell'\textit{Universit\`{a} Degli Studi di Pisa}. Esami sostenuti:
-\begin{compactitem}
-    \item Analisi Matematica I
-    \item Analisi Matematica II
-    \item Geometria e Angebra Lineare
-    \item Fisica I
-    \item Fisica II
-    \item Chimica
-    \item Materiali Strutturali
-    \item Meccanica Razionale
-    \item Meccanica Applicata alle Macchine
-\end{compactitem}
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+	
+	%------------------------------------------------
+	
+	\tableentry{Birth}{Born in Pisa (Italy), 18 June 1987}{spaceafter}
 
-\medskip
-Attualmente iscritto al \textit{Corso di Studi in Informatica} dell'\textit{Universit\`{a} Degli Studi di Pisa}. Esami sostenuti con media ponderata di 29.27:
-\begin{compactitem}
-    \item Analisi Matematica
-    \item Matematica Discreta e Algebra Lineare
-    \item Calcolo delle Probabilit\`{a} e Statistica
-    \item Calcolo Numerico
-    \item Crittografia
-    \item Fisica
-    \item Logica per la Programmazione
-    \item Programmazione I e Laboratorio
-    \item Programmazione II
-    \item Algoritmica e Laboratorio
-    \item Ricerca Operativa
-    \item Architettura degli Elaboratori
-    \item Sistemi Operativi e Laboratorio
-    \item Esperienze di Programmazione
-    \item Programmazione di Interfacce
-    \item Cloud e green computing
-    \item Basi di Dati
-\end{compactitem}
+    \tableentry{High school}{Diploma Maturità scientifica, \textit{Liceo Scientifico}}{}
+    \tableentry{}{\textit{F. Enriques} (Livorno)}{spaceafter}
+
+    \tableentry{University}{Studies in mechanics at the Department}{}
+    \tableentry{}{of Mechanical Engineering, \textit{University of Pisa}}{spaceafter}
+    \tableentry{}{Currently studing at the \textit{University of Pisa} for}{}
+    \tableentry{}{\textit{B.Sc. in Computer Science} with an expected}{}
+    \tableentry{}{final mark of 110L/110L}{spaceafter}
+	
+	%------------------------------------------------
+	
+\end{supertabular}
 
 %\bigskip % Extra whitespace before the next section
-%\vspace{0pt}
+\vspace{15pt}
+
+%----------------------------------------------------------------------------------------
+%	SOFTWARE
+%----------------------------------------------------------------------------------------
+
+\section{Areas of Interest}
+
+% Example \longformdescription{} command to add another section:
+
+%\longformdescription{Heading}{Description}
+
+%------------------------------------------------
+
+%\longformdescription{Passionate}{I have been interested in theoretical physics such as quantum mechanics and relativity from an early age. My education and research have cemented this interest into a passion. I greatly enjoy carrying out fundamental physics research with potential practical applications.}
+
+I am very keen on languages and I often learn new ones trying to improve my skills; this has made me focused on \textit{Functional programming}, experimenting with languages like \textit{Haskell}, \textit{Scala} and \textit{Julia}.
+
+\medskip
+I also grew interests in \textit{Lattice Theory} because of its implications in elliptic-curve cryptography and post-quantum cryptography.
+
+\medskip
+In recent times I explored the world of finance, studing \textit{Mathematical finance} and financial derivative pricing.
+
+% \medskip % Extra whitespace before the next section
+
+%----------------------------------------------------------------------------------------
+
+% \vspace{20pt}
 
 %----------------------------------------------------------------------------------------
 
@@ -137,13 +142,10 @@ Attualmente iscritto al \textit{Corso di Studi in Informatica} dell'\textit{Univ
 	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
 	\colorbox{shade}{ % Create the coloured box
 		\begin{supertabular}{p{0.05\linewidth}|p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
-%			\raisebox{-1pt}{\faHome} & P.O. Box 3985, Black Mesa Drive, NM 87545 \\ % Address
-%			\raisebox{-1pt}{\faPhone} & (+39) 0000000000 \\ % Phone number
-			\raisebox{-1pt}{\small\faHome} & \href{https://matteogiorgi.github.io}{matteogiorgi.github.io} \\ % Website
-			\raisebox{-1pt}{\faGithub} & \href{https://github.com/MatteoGiorgi}{github.com/MatteoGiorgi} \\ % GitHub profile
+			\raisebox{-1pt}{\faHome} & via Trieste 35 · 56126 Pisa (Italy) \\ % Address
+			\raisebox{-1pt}{\small\faDesktop} & \href{https://www.geoteo.net}{https://www.geoteo.net} \\ % Website
 			\raisebox{0pt}{\small\faEnvelope} & \href{mailto:matteo.giorgi@protonmail.com}{matteo.giorgi@protonmail.com} \\ % Email address
-			%\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/username}{https://www.linkedin.com/in/username} \\ % LinkedIn profile
-			% See fontawesome.pdf in the fonts folder for all icons you can use
+			\raisebox{-1pt}{\faPhoneSquare} & (+39) 3385311520 \\ % Phone number
 		\end{supertabular}
 	}
 }
@@ -200,7 +202,7 @@ Attualmente iscritto al \textit{Corso di Studi in Informatica} dell'\textit{Univ
 %	COMPUTER SKILLS
 %----------------------------------------------------------------------------------------
 
-\section{Linguaggi}
+\section{Programming \& Software}
 
 % Example \tableentry{} command to add another line:
 
@@ -215,47 +217,31 @@ Attualmente iscritto al \textit{Corso di Studi in Informatica} dell'\textit{Univ
 	
 	%------------------------------------------------
 	
-	\tableentry{Avanzato}{C, Scheme, Haskell, Python,}{}
-    \tableentry{}{Bash, AWK, Java}{spaceafter}
+	\tableentry{Languages}{\textit{C}, \textit{C++}, \textit{Scheme}, \textit{Haskell}, \textit{OCaml},}{}
+    \tableentry{}{\textit{Go}, \textit{Python}, \textit{Javascript}, \textit{Bash}, \textit{AWK},}{}
+    \tableentry{}{\textit{Java}, \textit{Scala}, \textit{R}, \textit{Julia}}{spaceafter}
 
-	
-	%------------------------------------------------
-	
-	\tableentry{Intermedio}{C++, Go, Haskell,}{}
-    \tableentry{}{StandardML, Javascript}{spaceafter}
-    
-    %------------------------------------------------
-    
-    \tableentry{Base}{Scala, Common Lisp,}{}
-    \tableentry{}{SystemVerilog}{spaceafter}
+	\tableentry{UNIX}{\textit{GNU/Linux} and \textit{FreeBSD} system}{}
+    \tableentry{}{management, C system programming,}{}
+    \tableentry{}{good knowledge of \textit{POSIX} standard}{spaceafter}
 
+	\tableentry{Tools}{Experience with various software}{}
+	\tableentry{}{such as \textit{Vim}, \textit{Emacs}, \textit{Git}, \textit{\TeX} e \textit{\LaTeX}}{}
+	\tableentry{}{\textit{Matlab} and \textit{Wolfram Mathematica}}{spaceafter}
 	
+	\tableentry{Extra}{Knowledge of \textit{Sql}, \textit{HTML} and \textit{CSS}}{spaceafter}
+
 	%------------------------------------------------
 	
 \end{supertabular}
 
-\vspace{13pt}
-
-%----------------------------------------------------------------------------------------
-%	SOFTWARE
-%----------------------------------------------------------------------------------------
-
-\section{Sistemi \& Software}
-
-Familiarit\`{a} con lo standard UNIX, conoscenza ottima di sistemi quali \textit{GNU/Linux} e \textit{FreeBSD}.
-
-\medskip
-
-Abilit\`{a} nell'uso di software come \textit{Matlab}, \textit{Mathematica}, prodotti \textit{JetBrains},
-\textit{Vim}, \textit{Emacs}, \textit{Git}, \textit{\TeX} e \textit{\LaTeX}.
-
-\vspace{20pt}
+\vspace{15pt}
 
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS
 %----------------------------------------------------------------------------------------
 
-\section{Lingue Straniere}
+\section{Languages}
 
 % Example \tableentry{} command to add another line:
 
@@ -270,15 +256,15 @@ Abilit\`{a} nell'uso di software come \textit{Matlab}, \textit{Mathematica}, pro
 	
 	%------------------------------------------------
 	
-	\tableentry{Inglese}{Competenza madrelingua professionale,}{}
-    \tableentry{}{ottima padronanza scritta e orale.}{}
+	\tableentry{Italian}{Mother tongue}{spaceafter}
+
+	\tableentry{English}{Advanced use in speaking and writing,}{}
 	\tableentry{}{\textit{Cambridge C1 Advanced (IELTS 7.0)}}{spaceafter}
 	
 	%------------------------------------------------
     
-    \tableentry{Francese}{Competenza scolastica base, buona}{}
-    \tableentry{}{comprensione scritta e orale.}{}
-    \tableentry{}{\textit{DELF A2}}{spaceafter}
+    \tableentry{French}{Basic understanding in speaking and,}{}
+    \tableentry{}{writing, \textit{DELF A2} certification}{spaceafter}
     
     %------------------------------------------------
 	
@@ -289,7 +275,7 @@ Abilit\`{a} nell'uso di software come \textit{Matlab}, \textit{Mathematica}, pro
 %----------------------------------------------------------------------------------------
 
 \vspace{15pt}
-\section{Esperienze \& Progetti}
+\section{Experiences \& projects}
 
 % Example \longformdescription{} command to add another section:
 
@@ -307,41 +293,43 @@ Abilit\`{a} nell'uso di software come \textit{Matlab}, \textit{Mathematica}, pro
 %    \item[$\circ$] Esperienza da programmatore \textit{Python} alla costruzione plastico per non vedenti, realizzato al \textit{CNR} di Pisa sotto la supervisione del dott. Furfari e prof.ssa Pelagatti nel secondo trimestre 2017. Esecuzione in coppia con un collega laureando al \textit{CdL} in \textit{Informatica} \textit{UniPi}.
 %\end{itemize}
 
-Esperienza da programmatore \textit{Python} alla costruzione plastico per non vedenti, realizzato al \textit{CNR} di Pisa sotto la supervisione del dott. Furfari e prof.ssa Pelagatti, docente al \textit{Dipartimento} di \textit{Informatica} \textit{UniPi}, nel secondo trimestre 2017. Esecuzione in coppia con un collega laureando al \textit{CdL} in \textit{Informatica} \textit{UniPi}.
+I had an experience, together whit a colleagues of mine, as a \textit{Python} programmer inside the \href{https://www.isti.cnr.it/en/}{\textit{CNR}} offices in Pisa helping realize a scale model for blind people. The project was under the supervision of Doctor Furfari from \textit{CNR} and Professor Pelagatti from \textit{UniPi}.
 
 \medskip
-Supporto alla didattica come assistente di laboratorio \textit{C} dell'esame di Informatica tenuto dalla prof.ssa Pelagatti per il \textit{CdL} in \textit{Fisica} \textit{UniPi} (secondo semestre Anno accademico 2016-2017).\hfill\href{http://didawiki.di.unipi.it/doku.php/fisica/informatica/201617/start}{\textit{http://didawiki.di.unipi.it/doku.php/fisica/informatica/201617/start}}
+I worked together with Professor Pelagatti as lab assistent for the \href{http://didawiki.di.unipi.it/doku.php/fisica/informatica/201617/start}{\textit{C laboratory exam}} at \textit{B.Sc. Phisics}.
 
 \medskip
-Ricerca svolta a titolo personale, sotto la supervisione del prof. Romani, docente al \textit{Dipartimento} di \textit{Informatica} \textit{UniPi}, riguardante tecniche di attacco al crittosistema \textit{RSA}. Nello specifico \textit{Attacco di Wiener} mediante l'utilizzo di frazioni continue per la fattorizzazione del modulo dell'\textit{RSA}.\hfill\href{https://github.com/MatteoGiorgi/wiener_attack}{\textit{https://github.com/MatteoGiorgi/wiener\_attack}}
+I wrote, under the supervision of Professor Romani from \textit{UniPi}, a \href{https://www.geoteo.net/attack.html}{\textit{paper}} regarding the attacks that might be done to the \textit{RSA} cryptosystem. I focused specifically on \textit{Wiener Attack} and its use of continued fractions for the factorization of the \textit{RSA} module.
+
+\medskip
+I am keeping all my \textit{GNU/Linux} \href{https://www.geoteo.net/config.html}{scripts and configuration files}, written over time, in a public repository so that everyone can access, change and update quickly their system configuration.
 
 %\medskip % Extra whitespace before the next section
 
 %----------------------------------------------------------------------------------------
 
-%\end{paracol}
+\vspace{15pt}
+\section{Competitive sports}
 
-%----------------------------------------------------------------------------------------
-
-\vspace{20pt}
-\section{Abilit\`{a} \& Interessi}
-
-% Example \longformdescription{} command to add another section:
-
-%\longformdescription{Heading}{Description}
-
-%------------------------------------------------
-
-%\longformdescription{Passionate}{I have been interested in theoretical physics such as quantum mechanics and relativity from an early age. My education and research have cemented this interest into a passion. I greatly enjoy carrying out fundamental physics research with potential practical applications.}
-
-Nel corso degli studi in \textit{Informatica}, la mia attenzione \`{e} stata pi\`{u} volte catturata da paricolari materie, portandomi ad approfondire argomenti quali \textit{Programmazione Funzionale}, \textit{Crittografia Asimmetrica} e \textit{Matematica Finanziaria}. Questo mi ha permesso di sperimentare linguaggi come \textit{Haskell} e \textit{Scala}, imparare i rudimenti della crittografia basata sui reticoli e contemporaneamente interessarmi ai modelli relativi all'andamento di derivati finanziari.
-
-\medskip % Extra whitespace before the next section
-
-%----------------------------------------------------------------------------------------
-
-%\end{paracol}
-
-%----------------------------------------------------------------------------------------
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+	
+	%------------------------------------------------
+	
+	\tableentry{Sailing}{I have more than 10 years of sailing activity at both national and international level. I won one national ranking list and}{}
+	\tableentry{}{qualified other three times among the fist ten italian juniores.}{}
+	\tableentry{}{As a member of the italian national team, I competed in 1 word championship, 3 european championships and 1}{}
+	\tableentry{}{european team championship (classified as vice-champion).}{}
+	\tableentry{}{Of all the regattas I won, the most prestigious are \textit{Young Barcolana}, \textit{Mediterranean Cup} and \textit{Trofeo Accademia navale}}{}
+	\tableentry{}{\textit{juniores}; plus I took part in the two largest sailing event in the world: \textit{Kiel Week} and \textit{Barcolana}.}{spaceafter}
+	
+	%------------------------------------------------
+    
+    \tableentry{Running}{I started as a middle-distance runner them moved to long distance, specialising in 10k and half-marathon.}{}
+    \tableentry{}{Sometime I took the time to do few ultra-marathon competitions, one over all the \textit{Etna Marathon}: an over 42k long}{}
+    \tableentry{}{race at 3000m MSL on the volcano Etna.}{spaceafter}
+    
+    %------------------------------------------------
+	
+\end{supertabular}
 
 \end{document}
