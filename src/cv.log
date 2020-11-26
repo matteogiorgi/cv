@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.11.21)  26 NOV 2020 00:06
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.11.21)  26 NOV 2020 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1324,7 +1324,7 @@ Requested font "[fonts/EBGaramond-Italic.ttf]/OT:script=latn;language=dflt;mapp
 ing=tex-text;" at 7.0pt
  -> ./fonts/EBGaramond-Italic.ttf
 
-Overfull \hbox (4.59795pt too wide) in paragraph at lines 216--237
+Overfull \hbox (5.45795pt too wide) in paragraph at lines 216--237
 [] 
  []
 
