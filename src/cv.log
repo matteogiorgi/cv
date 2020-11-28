@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.11.21)  28 NOV 2020 17:58
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.11.21)  28 NOV 2020 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1308,6 +1308,13 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 Requested font "[fonts/EBGaramond-Italic.ttf]/OT:script=latn;language=dflt;mapp
 ing=tex-text;" at 10.0pt
  -> ./fonts/EBGaramond-Italic.ttf
+
+Overfull \hbox (0.5544pt too wide) in paragraph at lines 119--120
+\TU/EBGaramond(0)/m/n/10 on \TU/EBGaramond(0)/m/it/10 Functional programming \T
+U/EBGaramond(0)/m/n/10 and \TU/EBGaramond(0)/m/it/10 Category theory\TU/EBGaram
+ond(0)/m/n/10 , experimenting with
+ []
+
 Requested font "[fonts/FontAwesome]/OT:language=dflt;" at 10.0pt
  -> ./fonts/FontAwesome.otf
 Requested font "[fonts/EBGaramond-Regular.ttf]/OT:script=latn;language=dflt;map
