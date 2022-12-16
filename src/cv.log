@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.5.17)  16 DEC 2022 15:25
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.5.17)  16 DEC 2022 22:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,13 +1085,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/LinLibertine(4)/b/n on input line 3
 2.
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 47.
+(Font)              scaled to size 9.49997pt on input line 49.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;ma
 pping=tex-text;" at 9.49997pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinBiolinum_R
 .otf
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 47.
+(Font)              scaled to size 23.63593pt on input line 49.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;ma
 pping=tex-text;" at 23.63593pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinBiolinum_R
@@ -1106,9 +1106,9 @@ Requested font "[fonts/EBGaramond-Regular.ttf]/OT:script=latn;language=dflt;map
 ping=tex-text;" at 5.0pt
  -> ./fonts/EBGaramond-Regular.ttf
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 47.
+(Font)              <7> on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 47.
+(Font)              <5> on input line 49.
 Requested font "[fonts/EBGaramond-SC.ttf]/OT:script=latn;language=dflt;mapping=
 tex-text;" at 10.0pt
  -> ./fonts/EBGaramond-SC.ttf
@@ -1120,13 +1120,8 @@ ing=tex-text;" at 10.0pt
  -> ./fonts/EBGaramond-Italic.ttf
 Requested font "[fonts/FontAwesome]/OT:language=dflt;" at 10.0pt
  -> ./fonts/FontAwesome.otf
-Requested font "[fonts/EBGaramond-Regular.ttf]/OT:script=latn;language=dflt;map
-ping=tex-text;" at 9.0pt
- -> ./fonts/EBGaramond-Regular.ttf
-Requested font "[fonts/FontAwesome]/OT:language=dflt;" at 9.0pt
- -> ./fonts/FontAwesome.otf
 
-Overfull \hbox (1.30673pt too wide) in paragraph at lines 147--147
+Overfull \hbox (1.30673pt too wide) in paragraph at lines 149--149
 [][][][][][][] 
  []
 
@@ -1134,28 +1129,33 @@ Requested font "[fonts/EBGaramond-Italic.ttf]/OT:script=latn;language=dflt;mapp
 ing=tex-text;" at 7.0pt
  -> ./fonts/EBGaramond-Italic.ttf
 
-Overfull \hbox (5.45795pt too wide) in paragraph at lines 212--232
+Overfull \hbox (5.45795pt too wide) in paragraph at lines 214--234
 [] 
  []
 
 
-Overfull \hbox (1.968pt too wide) in paragraph at lines 291--323
+Overfull \hbox (1.968pt too wide) in paragraph at lines 293--326
 [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--336
+
  []
 
 [1
 
 ] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 1BE75B56A3D48E79EDC5C022E97EAE4D;809.
+(rerunfilecheck)             Checksum: 7D6901DA8C6DAE863F4E74FBF6CD974C;814.
  ) 
 Here is how much of TeX's memory you used:
- 24259 strings out of 476191
- 490097 string characters out of 5812072
- 779669 words of memory out of 5000000
- 44764 multiletter control sequences out of 15000+600000
- 470262 words of font info for 88 fonts, out of 8000000 for 9000
+ 24255 strings out of 476191
+ 489938 string characters out of 5812072
+ 782674 words of memory out of 5000000
+ 44762 multiletter control sequences out of 15000+600000
+ 470246 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 78i,13n,127p,435b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,12n,127p,435b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv.pdf (1 page).
