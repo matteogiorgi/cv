@@ -1,27 +1,27 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.11.21)  28 NOV 2020 22:47
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.5.17)  16 DEC 2022 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cv.tex
 (./cv.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14>
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count163
-\c@section=\count164
-\c@subsection=\count165
-\c@subsubsection=\count166
-\c@paragraph=\count167
-\c@subparagraph=\count168
-\c@figure=\count169
-\c@table=\count170
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
+\bibindent=\dimen138
 )
 (/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
@@ -29,19 +29,19 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plpartopsep=\skip50
 \plitemsep=\skip51
 \plparsep=\skip52
-\pl@lab=\toks14
+\pl@lab=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -53,7 +53,7 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks17
 )
 (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
@@ -74,14 +74,18 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen135
-\Hy@linkcounter=\count171
-\Hy@pagecounter=\count172
+\@linkdim=\dimen139
+\Hy@linkcounter=\count189
+\Hy@pagecounter=\count190
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
 )
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -89,22 +93,26 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count173
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
+\Hy@SavedSpaceFactor=\count191
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count174
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count192
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen136
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen140
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -113,50 +121,49 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count175
-\Field@Width=\dimen137
-\Fld@charsize=\dimen138
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring OFF on input line 6450.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode OFF on input line 6460.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
+\Fld@menulength=\count193
+\Field@Width=\dimen141
+\Fld@charsize=\dimen142
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
 
-(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count176
-\c@Item=\count177
-\c@Hfootnote=\count178
+\Hy@abspage=\count194
+\c@Item=\count195
+\c@Hfootnote=\count196
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2020/01/14 v7.00d Hyperref driver for XeTeX
+File: hxetex.def 2021-06-07 v7.00m Hyperref driver for XeTeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
-)
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box45
-\c@Hy@AnnotLevel=\count179
-\HyField@AnnotCount=\count180
-\Fld@listcount=\count181
-\c@bookmark@seq@number=\count182
+\pdfm@box=\box50
+\c@Hy@AnnotLevel=\count197
+\HyField@AnnotCount=\count198
+\Fld@listcount=\count199
+\c@bookmark@seq@number=\count266
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
 )
 (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
@@ -167,25 +174,25 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip53
 )
 (./structure.tex (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count183
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count267
 ) (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count184
-\ST@wd=\dimen139
+\c@tracingst=\count268
+\ST@wd=\dimen143
 \ST@rightskip=\skip54
 \ST@leftskip=\skip55
 \ST@parfillskip=\skip56
-\ST@pageleft=\dimen140
-\ST@headht=\dimen141
-\ST@tailht=\dimen142
-\ST@pagesofar=\dimen143
-\ST@pboxht=\dimen144
-\ST@lineht=\dimen145
-\ST@prevht=\dimen146
-\ST@toadd=\dimen147
-\ST@dimen=\dimen148
-\ST@pbox=\box46
+\ST@pageleft=\dimen144
+\ST@headht=\dimen145
+\ST@tailht=\dimen146
+\ST@pagesofar=\dimen147
+\ST@pboxht=\dimen148
+\ST@lineht=\dimen149
+\ST@prevht=\dimen150
+\ST@toadd=\dimen151
+\ST@dimen=\dimen152
+\ST@pbox=\box51
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -193,87 +200,89 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count185
-\Gm@cntv=\count186
-\c@Gm@tempcnt=\count187
-\Gm@bindingoffset=\dimen149
-\Gm@wd@mp=\dimen150
-\Gm@odd@mp=\dimen151
-\Gm@even@mp=\dimen152
-\Gm@layoutwidth=\dimen153
-\Gm@layoutheight=\dimen154
-\Gm@layouthoffset=\dimen155
-\Gm@layoutvoffset=\dimen156
-\Gm@dimlist=\toks16
+\Gm@cnth=\count269
+\Gm@cntv=\count270
+\c@Gm@tempcnt=\count271
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks18
 )
 (/usr/share/texlive/texmf-dist/tex/latex/paracol/paracol.sty
 Package: paracol 2018/12/31 v1.35 
-\pcol@currcol=\count188
-\pcol@nextcol=\count189
-\pcol@ncol=\count190
-\pcol@ncolleft=\count191
-\pcol@page=\count192
-\pcol@basepage=\count193
-\pcol@toppage=\count194
-\pcol@footnotebase=\count195
-\pcol@nfootnotes=\count196
-\pcol@mcid=\count197
-\pcol@prevdepth=\dimen157
-\pcol@colht=\dimen158
-\pcol@textfloatsep=\dimen159
-\pcol@lrmargin=\dimen160
-\pagerim=\dimen161
+\pcol@currcol=\count272
+\pcol@nextcol=\count273
+\pcol@ncol=\count274
+\pcol@ncolleft=\count275
+\pcol@page=\count276
+\pcol@basepage=\count277
+\pcol@toppage=\count278
+\pcol@footnotebase=\count279
+\pcol@nfootnotes=\count280
+\pcol@mcid=\count281
+\pcol@prevdepth=\dimen161
+\pcol@colht=\dimen162
+\pcol@textfloatsep=\dimen163
+\pcol@lrmargin=\dimen164
+\pagerim=\dimen165
 \pcol@topskip=\skip57
 \belowfootnoteskip=\skip58
-\pcol@topfnotes=\box47
-\pcol@prespan=\box48
-\pcol@rightpage=\box49
-\pcol@colorstack@saved=\box50
-\pcol@tempboxa=\box51
-\pcol@tempboxb=\box52
-\pcol@colorins=\insert199
-\pcol@everyvbox=\toks17
+\pcol@topfnotes=\box52
+\pcol@prespan=\box53
+\pcol@rightpage=\box54
+\pcol@colorstack@saved=\box55
+\pcol@tempboxa=\box56
+\pcol@tempboxb=\box57
+\pcol@colorins=\insert252
+\pcol@everyvbox=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-02-14 L3 programming layer (loader) 
+Package: expl3 2022-01-21 L3 programming layer (loader) 
 
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
-File: l3backend-xdvipdfmx.def 2020-02-03 L3 backend support: xdvipdfmx
-\g__graphics_track_int=\count198
-\l__pdf_internal_box=\box53
-\g__pdf_backend_object_int=\count266
-\g__pdf_backend_annotation_int=\count267
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count282
+\l__color_backend_stack_int=\count283
+\g__color_backend_stack_int=\count284
+\g__graphics_track_int=\count285
+\l__pdf_internal_box=\box58
+\g__pdf_backend_object_int=\count286
+\g__pdf_backend_annotation_int=\count287
+\g__pdf_backend_link_int=\count288
 ))
-Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count268
-\g__xparse_grabber_int=\count269
-\l__xparse_m_args_int=\count270
-\l__xparse_v_nesting_int=\count271
+Package: xparse 2022-01-12 L3 Experimental document command parser
 )
-Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count272
-\l__fontspec_language_int=\count273
-\l__fontspec_strnum_int=\count274
-\l__fontspec_tmp_int=\count275
-\l__fontspec_tmpa_int=\count276
-\l__fontspec_tmpb_int=\count277
-\l__fontspec_tmpc_int=\count278
-\l__fontspec_em_int=\count279
-\l__fontspec_emdef_int=\count280
-\l__fontspec_strong_int=\count281
-\l__fontspec_strongdef_int=\count282
-\l__fontspec_tmpa_dim=\dimen162
-\l__fontspec_tmpb_dim=\dimen163
-\l__fontspec_tmpc_dim=\dimen164
+\l__fontspec_script_int=\count289
+\l__fontspec_language_int=\count290
+\l__fontspec_strnum_int=\count291
+\l__fontspec_tmp_int=\count292
+\l__fontspec_tmpa_int=\count293
+\l__fontspec_tmpb_int=\count294
+\l__fontspec_tmpc_int=\count295
+\l__fontspec_em_int=\count296
+\l__fontspec_emdef_int=\count297
+\l__fontspec_strong_int=\count298
+\l__fontspec_strongdef_int=\count299
+\l__fontspec_tmpa_dim=\dimen166
+\l__fontspec_tmpb_dim=\dimen167
+\l__fontspec_tmpc_dim=\dimen168
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 
@@ -336,7 +345,7 @@ Package fontspec Info: Font family 'FontAwesome(0)' created for font
 
 (./fonts/fontawesomesymbols-xeluatex.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
-Package: libertine 2019/07/01 (Bob Tennent) Supports Libertine and Biolinum fon
+Package: libertine 2020/03/26 (Bob Tennent) Supports Libertine and Biolinum fon
 ts for all LaTeX engines.
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
@@ -346,14 +355,14 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks18
-\XKV@tempa@toks=\toks19
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
 )
-\XKV@depth=\count283
+\XKV@depth=\count300
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
@@ -867,235 +876,41 @@ Font={}].
 (fontspec)             and font adjustment code:
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
-
-Package fontspec Info: Font family 'LinLibertine(6)' created for font
-(fontspec)             'LinLibertine' with options [Extension =
-(fontspec)             .otf,HyphenChar=None,Numbers =
-(fontspec)             {Monospaced,Lining},UprightFont = *_R,ItalicFont =
-(fontspec)             *_RI,BoldFont = *_RB,BoldItalicFont = *_RBI].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_R.otf]/OT:script=latn;language=dflt;+t
-num;+lnum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_R.otf]/OT:script=latn;language=dflt;+t
-num;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+
-tnum;+lnum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+
-tnum;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+
-tnum;+lnum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+
-tnum;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;
-+tnum;+lnum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;
-+tnum;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-
-
-Package fontspec Info: Font family 'LinLibertine(7)' created for font
-(fontspec)             'LinLibertine' with options [Extension =
-(fontspec)             .otf,HyphenChar=None,Numbers =
-(fontspec)             {Proportional,Lining},UprightFont = *_R,ItalicFont =
-(fontspec)             *_RI,BoldFont = *_RB,BoldItalicFont = *_RBI].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_R.otf]/OT:script=latn;language=dflt;+p
-num;+lnum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_R.otf]/OT:script=latn;language=dflt;+p
-num;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+
-pnum;+lnum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+
-pnum;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+
-pnum;+lnum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+
-pnum;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;
-+pnum;+lnum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;
-+pnum;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-
-
-Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
-(fontspec)                available for font 'LinBiolinum_RB' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-
-Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
-(fontspec)                available for font 'LinBiolinum_RB' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-
-Package fontspec Info: Font family 'LinBiolinum(3)' created for font
-(fontspec)             'LinBiolinum' with options [Extension =
-(fontspec)             .otf,HyphenChar=None,Numbers =
-(fontspec)             {Monospaced,Lining},Scale = 0.95,UprightFont =
-(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
-(fontspec)             *_RBO].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_R.otf]/OT:script=latn;language=
-dflt;+tnum;+lnum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_R.otf]/OT:script=latn;language=
-dflt;+tnum;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_RB.otf]/OT:script=latn;language
-=dflt;+tnum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_RB.otf]/OT:script=latn;language
-=dflt;+tnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_RI.otf]/OT:script=latn;language
-=dflt;+tnum;+lnum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_RI.otf]/OT:script=latn;language
-=dflt;+tnum;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_RBO.otf]/OT:script=latn;languag
-e=dflt;+tnum;+lnum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_RBO.otf]/OT:script=latn;languag
-e=dflt;+tnum;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-
-
-Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
-(fontspec)                available for font 'LinBiolinum_RB' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-
-Package fontspec Warning: OpenType feature 'Numbers=Uppercase' (lnum) not
-(fontspec)                available for font 'LinBiolinum_RB' with script
-(fontspec)                'CustomDefault' and language 'Default'.
-
-
-Package fontspec Info: Font family 'LinBiolinum(4)' created for font
-(fontspec)             'LinBiolinum' with options [Extension =
-(fontspec)             .otf,HyphenChar=None,Numbers =
-(fontspec)             {Proportional,Lining},Scale = 0.95,UprightFont =
-(fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
-(fontspec)             *_RBO].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_R.otf]/OT:script=latn;language=
-dflt;+pnum;+lnum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_R.otf]/OT:script=latn;language=
-dflt;+pnum;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_RB.otf]/OT:script=latn;language
-=dflt;+pnum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_RB.otf]/OT:script=latn;language
-=dflt;+pnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_RI.otf]/OT:script=latn;language
-=dflt;+pnum;+lnum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_RI.otf]/OT:script=latn;language
-=dflt;+pnum;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_RBO.otf]/OT:script=latn;languag
-e=dflt;+pnum;+lnum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[0.95]"[LinBiolinum_RBO.otf]/OT:script=latn;languag
-e=dflt;+pnum;+lnum;+smcp;"
-(fontspec)             and font adjustment code:
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_R.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_R.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_K.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/LKey.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Package option `usenames' ignored on input line 216.
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Package option `usenames' ignored on input line 218.
+Package xcolor Info: Driver file: xetex.def on input line 227.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 )
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
-File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+File: svgnam.def 2021/10/31 v2.13 Predefined colors according to SVG 1.1 (UK)
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 93.
 Package hyperref Info: Option `breaklinks' set `true' on input line 93.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
 \f@nch@headwidth=\skip59
 \f@nch@O@elh=\skip60
 \f@nch@O@erh=\skip61
@@ -1107,16 +922,16 @@ s
 \f@nch@O@orf=\skip67
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box54
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box59
 \beforetitleunit=\skip68
 \aftertitleunit=\skip69
-\ttl@plus=\dimen165
-\ttl@minus=\dimen166
-\ttl@toksa=\toks20
-\titlewidth=\dimen167
-\titlewidthlast=\dimen168
-\titlewidthfirst=\dimen169
+\ttl@plus=\dimen169
+\ttl@minus=\dimen170
+\ttl@toksa=\toks22
+\titlewidth=\dimen171
+\titlewidthlast=\dimen172
+\titlewidthfirst=\dimen173
 )) (./cv.aux)
 \openout1 = `cv.aux'.
 
@@ -1146,11 +961,10 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
-\AtBeginShipoutBox=\box55
 Package hyperref Info: Link coloring ON on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -1158,7 +972,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count284
+\c@section@level=\count301
 )
 LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
@@ -1301,20 +1115,9 @@ tex-text;" at 10.0pt
 Requested font "[fonts/EBGaramond-SC.ttf]/OT:script=latn;language=dflt;mapping=
 tex-text;" at 17.28pt
  -> ./fonts/EBGaramond-SC.ttf
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
-File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
-
-)
 Requested font "[fonts/EBGaramond-Italic.ttf]/OT:script=latn;language=dflt;mapp
 ing=tex-text;" at 10.0pt
  -> ./fonts/EBGaramond-Italic.ttf
-
-Overfull \hbox (0.5544pt too wide) in paragraph at lines 119--120
-\TU/EBGaramond(0)/m/n/10 on \TU/EBGaramond(0)/m/it/10 Functional programming \T
-U/EBGaramond(0)/m/n/10 and \TU/EBGaramond(0)/m/it/10 Category theory\TU/EBGaram
-ond(0)/m/n/10 , experimenting with
- []
-
 Requested font "[fonts/FontAwesome]/OT:language=dflt;" at 10.0pt
  -> ./fonts/FontAwesome.otf
 Requested font "[fonts/EBGaramond-Regular.ttf]/OT:script=latn;language=dflt;map
@@ -1323,7 +1126,7 @@ ping=tex-text;" at 9.0pt
 Requested font "[fonts/FontAwesome]/OT:language=dflt;" at 9.0pt
  -> ./fonts/FontAwesome.otf
 
-Overfull \hbox (1.30673pt too wide) in paragraph at lines 151--151
+Overfull \hbox (1.30673pt too wide) in paragraph at lines 147--147
 [][][][][][][] 
  []
 
@@ -1331,34 +1134,28 @@ Requested font "[fonts/EBGaramond-Italic.ttf]/OT:script=latn;language=dflt;mapp
 ing=tex-text;" at 7.0pt
  -> ./fonts/EBGaramond-Italic.ttf
 
-Overfull \hbox (5.45795pt too wide) in paragraph at lines 216--237
+Overfull \hbox (5.45795pt too wide) in paragraph at lines 212--232
 [] 
  []
 
 
-Overfull \hbox (2.43797pt too wide) in paragraph at lines 335--355
+Overfull \hbox (1.968pt too wide) in paragraph at lines 291--323
 [] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
 [1
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
- (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 356.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
+] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 75D657B8A9A513B68219453086B4190F;340.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
+(rerunfilecheck)             Checksum: 1BE75B56A3D48E79EDC5C022E97EAE4D;809.
  ) 
 Here is how much of TeX's memory you used:
- 24497 strings out of 481804
- 484893 string characters out of 5937875
- 715384 words of memory out of 5000000
- 41260 multiletter control sequences out of 15000+600000
- 533341 words of font info for 84 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 62i,13n,114p,962b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24259 strings out of 476191
+ 490097 string characters out of 5812072
+ 779669 words of memory out of 5000000
+ 44764 multiletter control sequences out of 15000+600000
+ 470262 words of font info for 88 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 78i,13n,127p,435b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv.pdf (1 page).
