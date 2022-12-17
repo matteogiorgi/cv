@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.5.17)  16 DEC 2022 22:39
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.5.17)  17 DEC 2022 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1147,15 +1147,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--336
 
 ] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 7D6901DA8C6DAE863F4E74FBF6CD974C;814.
+(rerunfilecheck)             Checksum: 1BE75B56A3D48E79EDC5C022E97EAE4D;809.
  ) 
 Here is how much of TeX's memory you used:
  24255 strings out of 476191
  489938 string characters out of 5812072
- 782674 words of memory out of 5000000
+ 782669 words of memory out of 5000000
  44762 multiletter control sequences out of 15000+600000
  470246 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 78i,12n,127p,435b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,12n,127p,455b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv.pdf (1 page).
