@@ -1,0 +1,481 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% XeLaTeX Template:
+%   https://www.latextemplates.com/template/freeman-cv
+%
+% Original authors:
+%   Vel (vel@LaTeXTemplates.com)
+%   Alessandro Plasmati
+
+% Modified by:
+%   Matteo Giorgi
+%
+% License:
+%   CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Font size, can be: 10pt, 11pt or 12pt
+\usepackage{paralist}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+
+\input{structure.tex} % Include the file that specifies the document structure
+
+% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{} commands
+% Example right footer:
+%\rfoot{\color{headings}{\sffamily Last update: \today. Typeset with Xe\LaTeX}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\vspace*{0.6\baselineskip}
+
+\begin{paracol}{2} % Begin the multi-column environment
+
+    %----------------------------------------------------------------------------------------
+    %	NAME AND CURRICULUM VITAE TEXT
+    %----------------------------------------------------------------------------------------
+
+    \parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the author name and CV text; fixed height to match the coloured box to the right, centred vertically and full line width
+    \vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+    \centering % Centre text
+    %	{\sffamily\Huge Matteo Giorgi}\\\medskip % Your name
+    %	{\Huge\color{headings}\cvtextfont Curriculum Vitae}
+    {\sffamily\Huge Matteo Giorgi}\\
+    {\Large\color{headings} Curriculum Vit\ae}
+    }
+
+    %----------------------------------------------------------------------------------------
+    %	WORK EXPERIENCE
+    %----------------------------------------------------------------------------------------
+
+    %\section{Formazione}
+    %
+    %% Blank \workposition command to add another job:
+    %
+    %%\workposition{} % Duration
+    %%{} % FT/PT (full time or part time)
+    %%{} % Employer
+    %%{} % Job title
+    %%{} % Description
+    %
+    %% All 5 parameters must be supplied but any can be empty if you don't need them
+    %
+    %%------------------------------------------------
+    %
+    %\workposition{Current, from Jan 1995} % Duration
+    %{} % FT/PT (full time or part time)
+    %{} % Employer
+    %{} % Job title
+    %{As part of this promotion, I began conducting nuclear and subatomic research in the Anomalous Materials department. My team and I are particularly interested in dimensionality and its interaction with spacetime. The focus is on practical outcomes and applications in teleportation and communication with distal locations.} % Description
+    %
+    %%------------------------------------------------
+    %
+    %\workposition{Feb 1991 -- Jan 1995} % Duration
+    %{} % FT/PT (full time or part time)
+    %{} % Employer
+    %{} % Job title
+    %{This position involved transitioning from purely theoretical work to experimental applications utilising the immense resources of Black Mesa. The transition required an initial learning curve in hazard containment, health and safety procedures and operating experimental infrastructure. Manipulating valves, carts, buttons, levers, etc considerably increased my physical fitness.}  % Description
+
+    \section{Bio \& Formazione}
+
+    \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+        %------------------------------------------------
+
+        \tableentry{Nascita}{Nato a Pisa, 18 giugno 1987}{spaceafter}
+
+        \tableentry{Scuola}{Diploma di maturit\`a scientifica presso il}{}
+        \tableentry{}{\textit{Liceo Scientifico F. Enriques} di Livorno}{spaceafter}
+
+        \tableentry{Universit\`a}{Studi in Ingegneria Meccanica presso il}{}
+        \tableentry{}{Dipartimento di Ingegneria Meccanica}{}
+        \tableentry{}{dell'\textit{Universit\`a di Pisa}}{spaceafter}{}
+        \tableentry{}{Laurea in Informatica presso il Dipartimento}{}
+        \tableentry{}{di Informatica dell'\textit{Universit\`a di Pisa,}}{}
+        \tableentry{}{votazione 110 e lode/110}{}
+
+        %------------------------------------------------
+
+    \end{supertabular}
+
+    %\bigskip % Extra whitespace before the next section
+    \vspace{15pt}
+
+    %----------------------------------------------------------------------------------------
+    %	SOFTWARE
+    %----------------------------------------------------------------------------------------
+
+    \section{Interessi}
+
+    % Example \longformdescription{} command to add another section:
+
+    %\longformdescription{Heading}{Description}
+
+    %------------------------------------------------
+
+    %\longformdescription{Passionate}{I have been interested in theoretical physics such as quantum mechanics and relativity from an early age. My education and research have cemented this interest into a passion. I greatly enjoy carrying out fundamental physics research with potential practical applications.}
+
+    Provo spesso nuovi linguaggi di programmazione e questo mi ha spinto ad approfondire la \textit{programmazione funzionale}, sperimentando con linguaggi come \textit{Scala}, \textit{OCaml} e \textit{Haskell}.
+
+    \medskip
+    La \textit{teoria dei reticoli}, con le sue implicazioni nella crittografia a curve ellittiche e nella crittografia post-quantistica, ha costituito un importante ambito di approfondimento, specialmente nell'implementazione di algoritmi efficienti per la risoluzione di problemi NP-hard.
+
+    \medskip
+    Durante il mio percorso, ho sviluppato una forte propensione per le \textit{strutture dati avanzate}, con particolare attenzione alla loro ottimizzazione ed efficienza computazionale, applicando queste conoscenze in progetti di programmazione competitiva e sviluppo software.
+
+    % \medskip
+    % I am also fascinated by \textit{Computational Finance}, particularly in the application of advanced algorithms and data analysis techniques to model and predict financial markets. This interest has led me to explore topics such as risk management and approximation methods for stochastic differential equations.
+
+    % \medskip % Extra whitespace before the next section
+
+    %----------------------------------------------------------------------------------------
+
+    % \vspace{8pt}
+
+    %----------------------------------------------------------------------------------------
+
+    \switchcolumn % Switch to the next paracol column
+
+    %----------------------------------------------------------------------------------------
+    %	COLOURED CONTACT DETAILS BOX
+    %----------------------------------------------------------------------------------------
+
+    \parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the colour box; fixed height to match the name/CV text to the left, centred vertically and full line width
+        \vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+        \colorbox{shade}{ % Create the coloured box
+            \begin{supertabular}{p{0.05\linewidth}|p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
+                \raisebox{-1pt}{\faGlobe} & \href{https://www.geoteo.net}{www.geoteo.net} \\ % Website
+                \raisebox{-1pt}{\faGithub} & \href{https://github.com/matteogiorgi}{github.com/matteogiorgi} \\ % GitHub
+                \raisebox{-1pt}{\faEnvelopeSquare} & \href{mailto:mattegiorgi@gmail.com}{mattegiorgi@gmail.com} \\ % Email address
+                \raisebox{-1pt}{\faPhoneSquare} & (+39) 3385311520 \\ % Phone number
+            \end{supertabular}
+        }
+    }
+
+    %----------------------------------------------------------------------------------------
+    %	EDUCATION
+    %----------------------------------------------------------------------------------------
+
+    %\section{???????}
+    %
+    %% Blank \educationentry{} command to add another degree:
+    %
+    %%\educationentry{} % Duration
+    %%{} % Degree
+    %%{} % Honours, achievements or distinctions (e.g. first class honours)
+    %%{} % Department
+    %%{} % Institution
+    %
+    %% All 5 parameters must be supplied but any can be empty if you don't need them
+    %
+    %%------------------------------------------------
+    %
+    %\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+    %
+    %	%------------------------------------------------
+    %
+    %	\educationentry{1986 -- 1990} % Duration
+    %	{Doctor of Philosophy} % Degree
+    %	{} % Honours, achievements or distinctions (e.g. first class honours)
+    %	{Theoretical Physics} % Department
+    %	{Massachusetts Institute of Technology} % Institution
+    %
+    %	%------------------------------------------------
+    %
+    %	\educationentry{1985} % Duration
+    %	{Master of Science} % Degree
+    %	{First Class Honours} % Honours, achievements or distinctions (e.g. first class honours)
+    %	{Theoretical Physics} % Department
+    %	{Massachusetts Institute of Technology} % Institution
+    %
+    %	%------------------------------------------------
+    %
+    %	\educationentry{1982 -- 1984} % Duration
+    %	{Bachelor of Physics} % Degree
+    %	{} % Honours, achievements or distinctions (e.g. first class honours)
+    %	{Department of Physics} % Department
+    %	{The University of Washington} % Institution
+    %
+    %	%------------------------------------------------
+    %
+    %\end{supertabular}
+
+
+    %----------------------------------------------------------------------------------------
+    %	COMMUNICATION SKILLS
+    %----------------------------------------------------------------------------------------
+
+    \section{Lingue}
+
+    % Example \tableentry{} command to add another line:
+
+    %\tableentry{Heading}{Content}{spaceafter}
+
+    % All 3 parameters must be supplied but any can be empty if you don't need them
+    % A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+
+    %------------------------------------------------
+
+    \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+        %------------------------------------------------
+
+        % \tableentry{Italiano}{Madrelingua}{spaceafter}
+
+        \tableentry{Inglese}{Uso avanzato parlato e scritto,}{}
+        \tableentry{}{\textit{Cambridge C1 Advanced (IELTS 7.0)}}{spaceafter}
+
+        %------------------------------------------------
+
+        \tableentry{Francese}{Comprensione base parlato e scritto,}{}
+        \tableentry{}{\textit{certificazione DELF A2}}{}
+
+        %------------------------------------------------
+
+    \end{supertabular}
+
+    \vspace{87pt}
+
+
+    %----------------------------------------------------------------------------------------
+    %	COMPUTER SKILLS
+    %----------------------------------------------------------------------------------------
+
+    \section{Programmazione}
+
+    % Example \tableentry{} command to add another line:
+
+    %\tableentry{Heading}{Content}{spaceafter}
+
+    % All 3 parameters must be supplied but any can be empty if you don't need them
+    % A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+
+    %------------------------------------------------
+
+    \begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+        %------------------------------------------------
+
+        \tableentry{Linguaggi}{\textit{C}, \textit{Go}, \textit{Java}, \textit{Scala}, \textit{Bash}, \textit{Awk}, \textit{Python},}{}
+        \tableentry{}{\textit{R}, \textit{Scheme}, \textit{JavaScript}, \textit{OCaml}, \textit{Haskell}}{spaceafter}
+
+        \tableentry{UNIX}{Gestione \textit{GNU/Linux} e \textit{FreeBSD},}{}
+        \tableentry{}{programmazione di sistema in \textit{C},}{}
+        \tableentry{}{buona conoscenza standard \textit{POSIX}}{spaceafter}
+
+        \tableentry{Strumenti}{Esperienza con ambienti di sviluppo}{}
+        \tableentry{}{come \textit{Vim}, \textit{Tmux}, \textit{Emacs}, \textit{Git}, \textit{\LaTeX},}{}
+        \tableentry{}{\textit{Matlab} e \textit{Wolfram Mathematica}}{spaceafter}
+
+        \tableentry{Extra}{Conoscenza di \textit{SQL}, \textit{HTML} e \textit{CSS}}{}
+
+        %------------------------------------------------
+
+    \end{supertabular}
+\end{paracol}
+%----------------------------------------------------------------------------------------
+%	SKILLS DESCRIPTION
+%----------------------------------------------------------------------------------------
+
+\vspace{15pt}
+\section{Esperienze \& Progetti}
+
+% Example \longformdescription{} command to add another section:
+
+%\longformdescription{Heading}{Description}
+
+%------------------------------------------------
+
+%\longformdescription{Goal Oriented}{I believe in action over long-winded discussions. I listen to everyone's viewpoints and use my judgement to immediately act based on consensus to achieve goals quickly and efficiently.}
+%
+%\longformdescription{Physical Dexterity}{Manual manipulation of experimental equipment and training within Black Mesa (e.g. the Hazard Course) have contributed to an enjoyment of working with my hands.}
+
+%\begin{itemize}[\leftmargin=0cm,\labelsep=0cm]
+%    \item[$\circ$] Supporto alla didattica come assistente di laboratorio \textit{C} dell'esame di Informatica tenuto dalla prof.ssa Pelagatti per il \textit{CdL} in \textit{Fisica} \textit{UniPi} (secondo semestre Anno accademico 2016-2017).
+%
+%    \item[$\circ$] Esperienza da programmatore \textit{Python} alla costruzione plastico per non vedenti, realizzato al \textit{CNR} di Pisa sotto la supervisione del dott. Furfari e prof.ssa Pelagatti nel secondo trimestre 2017. Esecuzione in coppia con un collega laureando al \textit{CdL} in \textit{Informatica} \textit{UniPi}.
+%\end{itemize}
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+    %------------------------------------------------
+
+    \tableentry{\href{https://github.com/matteogiorgi/trading-game}{IMC Challenge}}{Primo team italiano e 208$^\circ$ classificato al mondo nell'edizione 2025 dell'\textit{IMC Prosperity Challenge},}{}
+    \tableentry{}{competizione internazionale di trading algoritmico della durata di 15 giorni con oltre 12.000 partecipanti.}{}
+    \tableentry{}{In squadra con altri tre studenti dell'\textit{Universit\`a di Padova} in \textit{Computational Finance} e \textit{Statistica},}{}
+    \tableentry{}{abbiamo implementato algoritmi di trading in \textit{Python}, affrontato complessi problemi di probabilit\`a}{}
+    \tableentry{}{e ottenuto la miglior prestazione nazionale, chiudendo il round finale con un profitto di +155K.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{\href{https://github.com/matteogiorgi/nn-option-pricing}{NN Op. Pricing}}{Progetto finalizzato a valutare se una rete neurale feed-forward possa approssimare accuratamente la}{}
+    \tableentry{}{formula di \textit{Black-Scholes} per opzioni call europee. Il lavoro confronta prezzi analitici, stime \textit{Monte Carlo} e}{}
+    \tableentry{}{modelli neurali, includendo generazione di dati sintetici, pipeline sperimentale, benchmark dei tempi di}{}
+    \tableentry{}{pricing, test automatici e report tecnico in \LaTeX.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{\href{https://github.com/matteogiorgi/lapq}{LAPQ}}{Priority queue sperimentale in \textit{C99} basata su skip list e progettata come playground per strutture dati}{}
+    \tableentry{}{\textit{learning-augmented}. Le predizioni sono usate come hint opzionali, mentre la correttezza rimane garantita}{}
+    \tableentry{}{dal comparatore ordinario. Il progetto include API in \textit{C}, binding \textit{Python}, handle generazionali,}{}
+    \tableentry{}{benchmark, test deterministici e primi esperimenti su grafi e algoritmi di cammino minimo.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{\href{https://github.com/matteogiorgi/heapx}{Heapx}}{Libreria sperimentale in \textit{C99} per strutture heap, con API comune basata su tipo opaco e dispatch interno}{}
+    \tableentry{}{verso diverse implementazioni, tra cui binary min-heap, Fibonacci heap e Kaplan heap.}{}
+    \tableentry{}{Il progetto pone attenzione a genericit\`a dei dati, ownership esplicita degli elementi, test degli invarianti,}{}
+    \tableentry{}{sanitizer, benchmark riproducibili e documentazione API generata con \textit{Doxygen}.}{spaceafter}
+
+\end{supertabular}
+
+\newpage
+\AddToShipoutPictureFG*{%
+    \AtPageLowerLeft{%
+        \raisebox{0.50cm}{%
+            \makebox[\paperwidth][r]{%
+                \includegraphics[width=5.0cm]{signature.png}\hspace*{1.5cm}%
+            }%
+        }%
+    }%
+}
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+    %------------------------------------------------
+
+    \tableentry{\href{https://github.com/matteogiorgi/toody}{Toody}}{Progettazione e sviluppo da zero di una web application in \textit{Python} per analizzare documenti dei}{}
+    \tableentry{}{requisiti software e individuare indicatori di variabilit\`a. Realizzato come parte della tesi triennale,}{}
+    \tableentry{}{il progetto copre backend e frontend, usando \textit{Flask} per l'interfaccia web e \textit{spaCy} per l'analisi e}{}
+    \tableentry{}{l'elaborazione del linguaggio naturale.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{\href{http://didawiki.di.unipi.it/doku.php/fisica/informatica/201617/start}{Assistente lab.}}{Supporto alla didattica, a fianco della prof.ssa Pelagatti, come assistente per il laboratorio di \textit{C} dell'esame}{}
+    \tableentry{}{di Informatica per il corso di Laurea in \textit{Fisica} dell'\textit{Universit\`a di Pisa}.}{}
+    \tableentry{}{L'incarico comprendeva aiutare gli studenti durante le esercitazioni e correggere gli elaborati consegnati.}{spaceafter}
+
+    %------------------------------------------------
+
+    % \tableentry{\href{https://github.com/matteogiorgi/podeen}{Podeen}}{Repository pubblico contenente una raccolta di file di configurazione e script di installazione per}{}
+    % \tableentry{}{un ambiente di lavoro \textit{UNIX} minimale ed efficiente, basato su una qualsiasi distribuzione \textit{Debian}.}{spaceafter}
+
+    \tableentry{\href{https://github.com/matteogiorgi/podeen}{Podeen}}{Progetto personale nato dalla passione per \textit{Linux}, \textit{Vim} e dalla ricerca di un ambiente di sviluppo minimale,}{}
+    \tableentry{}{efficiente e pienamente controllabile. Il repository raccoglie file di configurazione e script di installazione}{}
+    \tableentry{}{per costruire un workspace \textit{UNIX} snello e riproducibile, basato su una qualsiasi distribuzione \textit{Debian}.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{\href{https://github.com/matteogiorgi/asteroids}{Asteroids}}{Implementazione in \textit{JavaScript} del popolare gioco \textit{Asteroids}. Il gioco è scritto utilizzando la libreria \textit{p5.js}}{}
+    \tableentry{}{ed \`e particolarmente utile per comprendere le basi della programmazione a eventi.}{spaceafter}
+
+
+    %------------------------------------------------
+
+    \tableentry{\href{https://github.com/matteogiorgi/wiener}{Wiener Report}}{Studio indipendente, seguito dal prof. Romani dell'\textit{Universit\`a di Pisa}, sugli attacchi che sfruttano}{}
+    \tableentry{}{le vulnerabilit\`a del crittosistema \textit{RSA}. Il lavoro si concentra sul \textit{Wiener Attack} e il suo uso delle}{}
+    \tableentry{}{\textit{frazioni continue} per la fattorizzazione del modulo \textit{RSA}.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{\href{https://github.com/matteogiorgi/funint}{Funit}}{Progettazione e implementazione di un interprete \textit{OCaml} per un linguaggio giocattolo con}{}
+    \tableentry{}{scoping statico e type checking dinamico, capace di gestire tuple di espressioni e comporre funzioni.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{\href{https://github.com/matteogiorgi/wordle}{Wordle}}{Implementazione \textit{Java} del popolare gioco \textit{Wordle} del \textit{New York Times}. Il progetto si \`e concentrato su}{}
+    \tableentry{}{algoritmi di confronto tra stringhe per il word matching all'interno di una classica struttura client-server.}{spaceafter}
+
+    %------------------------------------------------
+
+    % \tableentry{\href{https://github.com/matteogiorgi/graph}{Graph}}{Implementazione \textit{Java} di una libreria per grafi non orientati con oggetti generici omogenei.}{}
+    % \tableentry{}{Il progetto \`e utile per consolidare progettazione orientata agli oggetti, modularit\`a, riuso del codice}{}
+    % \tableentry{}{e separazione chiara delle responsabilit\`a.}{spaceafter}
+
+    \tableentry{\href{https://github.com/matteogiorgi/graph}{Graph}}{Progettazione e implementazione \textit{Java} di una libreria di generics per grafi non orientati, con API pensate}{}
+    \tableentry{}{per favorire riuso, modularit\`a e \textit{separation of concerns}. Il progetto ha consolidato competenze di}{}
+    \tableentry{}{modellazione orientata agli oggetti e organizzazione del codice in componenti manutenibili.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{\href{https://github.com/matteogiorgi/membox}{Membox}}{Sviluppo in \textit{C} di un server concorrente per un sistema di repository virtuale, capace di gestire sequenze}{}
+    \tableentry{}{non nulle di byte, tramite primitive di sincronizzazione che garantiscono accesso sicuro in ambienti multi-thread.}{}
+    \tableentry{}{Il focus \`e stato quello di una gestione robusta della memoria e strutture dati concorrenti con \textit{POSIX threads}.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{\href{https://github.com/matteogiorgi/sparse}{Sparse}}{Implementazione di una semplice libreria in \textit{C} per gestire matrici sparse in modo efficiente.}{}
+    \tableentry{}{Il progetto \`e stato particolarmente utile per esercitare manipolazione dei puntatori, gestione efficiente della}{}
+    \tableentry{}{memoria e programmazione a basso livello.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{\href{https://github.com/matteogiorgi/computability}{Computability}}{Raccolta organica di note ed esempi sulla teoria della computabilit\`a, con temi quali macchine di Turing,}{}
+    \tableentry{}{funzioni ricorsive e indecidibilit\`a. Pur non essendo ultimato, il progetto ha offerto un'esposizione preziosa}{}
+    \tableentry{}{all'informatica teorica e ai suoi legami con la teoria dei linguaggi formali.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{Hackathon}{Primo posto nell'edizione 2021 di \textit{ContHackt}, organizzata dall'\textit{Universit\`a di Pisa} e da \textit{Contamination Lab Pisa}.}{}
+    \tableentry{}{Come team vincitore abbiamo avuto accesso al progetto 2021/2022 \href{https://eit-hei.eu/app/uploads/2021/10/EIT-Project-Fact-Sheet-EUAcceL.pdf}{\textit{EUAcceL}}, organizzato dalla}{}
+    \tableentry{}{\textit{European Institute of Innovation and Technology}, vincendo la fase finale con un prototipo di blockchain}{}
+    \tableentry{}{per la tracciabilit\`a dei prodotti alimentari.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{Progetto CNR}{Esperienza come programmatore \textit{Python}, insieme a un collega, presso gli uffici \textit{CNR} di Pisa per la realizzazione}{}
+    \tableentry{}{di un plastico interattivo destinato a persone non vedenti. Il progetto si \`e svolto sotto la supervisione del}{}
+    \tableentry{}{dott. Furfari del \textit{CNR} e della prof.ssa Pelagatti dell'\textit{Universit\`a di Pisa}.}{spaceafter}
+
+    %------------------------------------------------
+
+    \tableentry{Ripetizioni}{Supporto a studenti universitari in \textit{Matematica}, \textit{Informatica} e \textit{Fisica}; attività che mi ha aiutato a sviluppare}{}
+    \tableentry{}{buone capacit\`a comunicative e di adattamento, oltre che al rafforzamento delle conoscenze di base.}{spaceafter}
+
+    %------------------------------------------------
+
+\end{supertabular}
+%\medskip % Extra whitespace before the next section
+
+%----------------------------------------------------------------------------------------
+
+\vspace{15pt}
+\section{Sport}
+
+Oltre dieci anni di attivit\`a agonistica nella \emph{vela}, a livello nazionale e internazionale, nelle classi Optimist, 420 e 470; per gran parte del percorso tra le file della Squadra Nazionale Giovanile. Ho partecipato a regate di alto livello, tra cui \href{https://www.kieler-woche.de}{\textit{Kiel Week}} e \href{https://www.barcolana.it}{\textit{Barcolana}}, due tra gli eventi velici pi\`u importanti al mondo. Principali risultati:\\
+% Winner of 1 national ranking list and qualified among the first ten italian juniores other four times.
+% Competed, as a member of the italian national team, in 1 word championship (China), 3 european championships
+% (Portugal, Ireland, Italy) and classified vice-champion in 1 european team championship (Germany).
+
+% Other noteworthy achievements: winner of \textit{Young Barcolana}, \textit{Mediterranean Cup} and \textit{Trofeo Accademia Navale Jr}.\\
+% Other prestigious competitions: \href{https://www.kieler-woche.de}{\textit{Kiel Week}} and \href{https://www.barcolana.it}{\textit{Barcolana}} as the two largest sailing event in the world.
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+    %------------------------------------------------
+
+    \tableentry{Nazionale}{Primo classificato in una ranking list nazionale e altre quattro volte piazzato tra i primi dieci junior italiani.}{}
+    \tableentry{}{Vincitore di una \textit{Young Barcolana}, una \textit{Mediterranean Cup} e un \textit{Trofeo Accademia Navale Juniores}.}{spaceafter}
+    \tableentry{Internazionale}{Convocato nella Squadra Nazionale Italiana per un Campionato del Mondo (Qingdao - Cina),}{}
+    \tableentry{}{tre Campionati Europei (Tavira - Portogallo, Dublino - Irlanda, Riva del Garda - Italia) e vicecampione}{}
+    \tableentry{}{in un Campionato Europeo a squadre (Berlino - Germania).}{}
+    % \tableentry{}{Other noteworthy achievements: winner of \textit{Young Barcolana}, \textit{Mediterranean Cup} and \textit{Trofeo Accademia Navale Jr}.}{}
+
+    %------------------------------------------------
+
+    % \tableentry{Running}{I started as a middle-distance runner them moved to long distance, specialising in 10km and half-marathon.}{}
+    % \tableentry{}{Sometime I took the time to do few ultra-marathon competitions, one over all the \textit{Etna Marathon}: an over 42km long}{}
+    % \tableentry{}{race at 2000m msl on the volcano Etna.}{}
+
+    %------------------------------------------------
+
+\end{supertabular}
+
+\end{document}
