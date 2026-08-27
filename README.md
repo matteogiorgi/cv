@@ -36,7 +36,7 @@
 
 ## Esperienze
 
-Oltre ai progetti personali, raccolti e documentati su [`geoteo.net`](https://geoteo.net), negli anni ho affiancato lo studio con alcune esperienze formative e professionali.
+Oltre ai progetti personali, raccolti su [`geoteo.net`](https://geoteo.net), negli anni ho affiancato lo studio con alcune esperienze formative e professionali.
 
 - **IMC Challenge** — Primo team italiano e 208° classificato al mondo nell'edizione 2025 dell'*IMC Prosperity Challenge*, competizione internazionale di trading algoritmico della durata di 15 giorni con oltre 12.000 partecipanti. In squadra con altri tre studenti dell'*Università di Padova* in *Computational Finance* e *Statistica*, abbiamo implementato algoritmi di trading in *Python*, affrontato complessi problemi di probabilità e ottenuto la miglior prestazione nazionale, chiudendo il round finale con un profitto di +155K.
 - **Assistente Lab.** — Supporto alla didattica, a fianco della prof.ssa Pelagatti, come assistente per il laboratorio di *C* dell'esame di Informatica per il corso di Laurea in *Fisica* dell'*Università di Pisa*. L'incarico comprendeva aiutare gli studenti durante le esercitazioni e correggere gli elaborati consegnati.
