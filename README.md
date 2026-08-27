@@ -1,7 +1,7 @@
 # Geovitæ
 
 <p align="center">
-	<img src="me.gif" alt="Mario" style="display:block;width:100%;height:auto;margin-bottom:48px;border:5px solid var(--link);border-radius:12px;box-sizing:border-box;">
+	<img src="pacman.gif" alt="Pacman" style="display:block;width:100%;height:auto;margin-bottom:48px;border:5px solid var(--link);border-radius:12px;box-sizing:border-box;">
 </p>
 
 
