@@ -9,9 +9,9 @@
 
 ## Formazione
 
-- **Laurea Magistrale in Scienze Statistiche, Finanziarie e Attuariali** — Dipartimento di Statistica *Università di Bologna*, in corso.
-- **Laurea in Informatica** — Dipartimento di Informatica *Università di Pisa*, votazione 110 e lode/110.
-- **Ingegneria Meccanica** — Dipartimento di Ingegneria Meccanica *Università di Pisa*, interrotto.
+- **[Laurea Magistrale in Scienze Statistiche, Finanziarie e Attuariali](https://stat.unibo.it/)** — *Università di Bologna*, in corso.
+- **[Laurea in Informatica](https://di.unipi.it/)** — *Università di Pisa*, votazione 110 e lode/110.
+- **[Ingegneria Meccanica](https://meccanica.ing.unipi.it/)** — *Università di Pisa*, interrotto.
 
 
 
@@ -28,7 +28,7 @@
 
 - **Linguaggi** — *C*, *Go*, *Java*, *Scala*, *Bash*, *Awk*, *Python*, *R*, *Scheme*, *JavaScript*, *OCaml*, *Haskell*.
 - **Unix** — Gestione *GNU/Linux* e *FreeBSD*, programmazione di sistema in *C*, buona conoscenza standard *POSIX*.
-- **Strumenti** — Esperienza con ambienti di sviluppo come *Vim*, *Tmux*, *Emacs*, *Git*, *LaTeX*, *Matlab* e *Wolfram Mathematica*.
+- **Strumenti** — Esperienza con ambienti di sviluppo come *Vim*, *Tmux*, *Emacs*, *Git*, *LaTeX*, *Matlab* e *Mathematica*.
 - **Extra** — Conoscenza di *SQL*, *HTML* e *CSS*.
 
 
